@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "xlocale": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xiosbase": "cpp",
+        "utility": "cpp",
+        "streambuf": "cpp",
+        "xutility": "cpp"
+    }
+}
