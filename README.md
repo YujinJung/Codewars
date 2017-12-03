@@ -2,6 +2,7 @@
 
 ## URL
 - [Codewars](https://www.codewars.com/)
+- [My Practice Record](https://www.codewars.com/users/Yujin%20Jung)
 
 <br/>
 
@@ -11,6 +12,7 @@
 
 #### 5kyu
 - [is my friend cheating](https://www.codewars.com/kata/5547cc7dcad755e480000004)
+- [some Egyptian fractions](https://www.codewars.com/kata/some-egyptian-fractions/cpp)
 
 #### 6kyu
 - [consecutive string](https://www.codewars.com/kata/56a5d994ac971f1ac500003e)
