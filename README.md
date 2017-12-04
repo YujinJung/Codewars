@@ -21,6 +21,7 @@
 - [reverse of rotate](https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991)
 - [validate credit card number](https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2)
 - [vowel shifting](https://www.codewars.com/kata/577e277c9fb2a5511c00001d)
+- [steps in primes](https://www.codewars.com/kata/steps-in-primes/cpp)
 
 #### 7kyu
 - [ parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732)
