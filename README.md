@@ -9,6 +9,8 @@
 ## Kata
 #### 4kyu
 - [ranking poker hand](https://www.codewars.com/kata/5739174624fc28e188000465)
+- [pick peaks](https://www.codewars.com/kata/pick-peaks/cpp)
+- [matrix determinant](https://www.codewars.com/kata/matrix-determinant/cpp)
 
 #### 5kyu
 - [is my friend cheating](https://www.codewars.com/kata/5547cc7dcad755e480000004)
