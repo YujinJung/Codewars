@@ -35,6 +35,7 @@
 
 using namespace std;
 
+// http://ohyecloudy.com/pnotes/archives/243/
 template<typename TO, typename FROM>
 TO NumberStringCast( const FROM& from )
 {
