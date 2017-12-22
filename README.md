@@ -17,6 +17,7 @@
 - [is my friend cheating](https://www.codewars.com/kata/5547cc7dcad755e480000004) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_is_my_friend_cheating.cpp)
 - [some Egyptian fractions](https://www.codewars.com/kata/some-egyptian-fractions/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_some_egyptian_fractions.cpp)
 - [baseball](https://www.codewars.com/kata/baseball/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_baseball.cpp)
+- [perimeter of squares in a rectangle](https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_perimeter_of_squares_in_a_rectangle.cpp)
 
 #### 6kyu
 - [consecutive string](https://www.codewars.com/kata/56a5d994ac971f1ac500003e) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_consecutive_string.cpp)
