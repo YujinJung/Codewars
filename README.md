@@ -28,6 +28,8 @@
 - [validate credit card number](https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_validate_credit_card_number.cpp)
 - [vowel shifting](https://www.codewars.com/kata/577e277c9fb2a5511c00001d) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_vowel_shifting.cpp)
 - [steps in primes](https://www.codewars.com/kata/steps-in-primes/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_steps_in_primes.cpp)
+- [a rule of divisibility by 13](https://www.codewars.com/kata/a-rule-of-divisibility-by-13/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_a_rule_of_divisibility_by_13.cpp)
 
 #### 7kyu
-- [ parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_parts_of_a_list.cpp)
+- [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_parts_of_a_list.cpp)
+- [maximum length difference](https://www.codewars.com/kata/5663f5305102699bad000056/solutions/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_maximum_length_difference.cpp)
