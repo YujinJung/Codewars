@@ -21,7 +21,9 @@
 - [perimeter of squares in a rectangle](https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_perimeter_of_squares_in_a_rectangle.cpp)
 - [rgb to hex conversion](https://www.codewars.com/kata/rgb-to-hex-conversion/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_rgb_to_hex_conversion.cpp)
 - [going to zero or to infinity](https://www.codewars.com/kata/going-to-zero-or-to-infinity/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_going_to_zero_or_to_infinity.cpp)
-- [convert string to camel case](https://www.codewars.com/kata/convert-string-to-camel-case/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/)
+- [convert string to camel case](https://www.codewars.com/kata/convert-string-to-camel-case/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_convert_string_to_camel_case.cpp)
+- [best travel](https://www.codewars.com/kata/convert-string-to-camel-case/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_best_travel.cpp)
+
 
 #### 6kyu
 - [consecutive string](https://www.codewars.com/kata/56a5d994ac971f1ac500003e) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_consecutive_string.cpp)
