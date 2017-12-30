@@ -6,36 +6,6 @@
 
 using namespace std;
 
-void path(vector<vector<pair<int, int> > >& v, int i, int j, const int &n, bool& result)
-{
-	if (v.at(i).at(j).second == 1) return;
-	v.at(i).at(j).second = 1;
-
-	if (i < 0 || j < 0 || i > n || j > n) return;
-	if (v.at(i).at(j).first == 1) return;
-	if (i == n && j == n && v.at(i).at(j).first == 0)
-	{
-		result = true;
-		return;
-	}
-	if (v.at(i).at(j).first == 1)
-		return;
-
-	if (i + 1 < n + 1 && result != true)
-		path(v, i + 1, j, n, result);
-
-	if (j + 1 < n + 1 && result != true)
-		path(v, i, j + 1, n, result);
-
-	if (i - 1 > 0 && result != true)
-		path(v, i - 1, j, n, result);
-
-	if (j - 1 > 0 && result != true)
-		path(v, i, j - 1, n, result);
-
-	return;
-}
-
 bool path_finder(string maze) {
 
 	vector<vector<pair<int, int>> > v;
@@ -113,16 +83,4 @@ bool path_finder(string maze) {
 		}
 	}
 	return false;
-}
-
-int main(void)
-{
-	cout << "result: " << "true false true false false" << endl;
-	cout << endl;
-	cout << path_finder(".W...W...W...\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n.W.W.W.W.W.W.\n...W...W...W.");
-	cout << endl << endl << path_finder(".............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n......W......\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............");
-	cout << endl << endl << path_finder(".............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............");
-	cout << endl << endl << path_finder(".............\nWWWWWWWWWWWWW\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............");
-	cout << endl << endl << path_finder(".............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n.............\n.WWWWWWWWWWWW\n.............\nWWWWWWWWWWWW.\n............W\n.WWWWWWWWWWWW\n.............");
-	system("pause");
 }
