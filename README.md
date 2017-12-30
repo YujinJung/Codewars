@@ -12,6 +12,7 @@
 - [pick peaks](https://www.codewars.com/kata/pick-peaks/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/4kyu_pick_peaks.cpp)
 - [matrix determinant](https://www.codewars.com/kata/matrix-determinant/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/4kyu_matrix_determinant.cpp)
 - [permutations](https://www.codewars.com/kata/permutations/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/4kyu_Permutation.cpp)
+- [4kyu_path_finder](https://www.codewars.com/kata/path-finder-number-1-can-you-reach-the-exit/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/4kyu_path_finder.cpp)
 
 #### 5kyu
 - [is my friend cheating](https://www.codewars.com/kata/5547cc7dcad755e480000004) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_is_my_friend_cheating.cpp)
