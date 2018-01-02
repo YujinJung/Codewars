@@ -25,6 +25,7 @@
 - [best travel](https://www.codewars.com/kata/convert-string-to-camel-case/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_best_travel.cpp)
 - [5kyu john and ann sign up for codewars](https://www.codewars.com/kata/john-and-ann-sign-up-for-codewars/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_john_and_ann_sign_up_for_codewars.cpp)
 - [5kyu first variation on caesar cipher](https://www.codewars.com/kata/first-variation-on-caesar-cipher/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_first_variation_on_caesar_cipher.cpp)
+- [5kyu Simple Encryption #3 Turn The Bits Around](https://www.codewars.com/kata/simple-encryption-number-3-turn-the-bits-around/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_Simple_Encryption_#3_Turn_The_Bits_Around.cpp)
 
 
 #### 6kyu
