@@ -5,25 +5,26 @@
 #include <string>
 #include <algorithm>
 
-std::string to_camel_case(std::string text) {
+std::string to_camel_case(std::string text)
+{
   std::string result = "";
-  char comp[2] = { '_', '-' };
-  
-  for(int i = 0; i < text.size(); i++)
+  char comp[2] = {'_', '-'};
+
+  for (int i = 0; i < text.size(); i++)
   {
-    std::cout<<"i: "<<i<<","<<comp[0]<<","<<text.at(i)<<std::endl;
-    if(text.at(i) == comp[0] || text.at(i) == comp[1])
+    std::cout << "i: " << i << "," << comp[0] << "," << text.at(i) << std::endl;
+    if (text.at(i) == comp[0] || text.at(i) == comp[1])
     {
       i++;
       char trans = text.at(i);
-      std::cout<<trans<<std::endl;
-      if(trans > 90)
+      std::cout << trans << std::endl;
+      if (trans > 90)
         trans -= 32;
-      result += trans;    
+      result += trans;
       continue;
     }
     result += text.at(i);
   }
-  
+
   return result;
 }

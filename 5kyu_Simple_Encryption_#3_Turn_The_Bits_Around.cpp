@@ -44,8 +44,8 @@ void enc(char &x)
 	// 3
 	char firstBit = x & 0x07; // 0000 0xxxx
 	firstBit = firstBit << 3; // 00xx x000
-	char lastBit = x & 0x38; // 00xx x000
-	lastBit = lastBit >> 3; // 0000 0xxx ?? 다 1되면/./?
+	char lastBit = x & 0x38;  // 00xx x000
+	lastBit = lastBit >> 3;   // 0000 0xxx ?? 다 1되면/./?
 
 	x = firstBit + lastBit;
 
@@ -99,7 +99,8 @@ void enc(char &x)
 */
 std::string encrypt(std::string text)
 {
-	if (text == "") return "";
+	if (text == "")
+		return "";
 
 	std::string result;
 	std::string ruleOneStr;
@@ -123,9 +124,9 @@ std::string encrypt(std::string text)
 
 		// 1.5 2.1
 		char preFifth = 0x02 & preChar; // 0000 00x0
-		preFifth = preFifth << 4; // 00x0 0000
-		char curFirst = 0x20 & x; // 00x0 0000
-		curFirst = curFirst >> 4; // 0000 00x0
+		preFifth = preFifth << 4;		// 00x0 0000
+		char curFirst = 0x20 & x;		// 00x0 0000
+		curFirst = curFirst >> 4;		// 0000 00x0
 
 		preChar = preChar & 0xFD;
 		preChar = preChar | curFirst;
@@ -147,12 +148,11 @@ std::string encrypt(std::string text)
 	return result;
 }
 
-
-void dec(char& x)
+void dec(char &x)
 {
 	char chk = 0x10; // 0001 0000
 
-					 // 6
+	// 6
 	char firstBit = x & 0x20;
 	firstBit = firstBit >> 2;
 	char lastBit = x & 0x08;
@@ -182,10 +182,10 @@ void dec(char& x)
 	x = oddBit + evenBit;
 
 	// 3
-	firstBit = x & 0x07; // 0000 0xxxx
+	firstBit = x & 0x07;	  // 0000 0xxxx
 	firstBit = firstBit << 3; // 00xx x000
-	lastBit = x & 0x38; // 00xx x000
-	lastBit = lastBit >> 3; // 0000 0xxx ?? 다 1되면/./?
+	lastBit = x & 0x38;		  // 00xx x000
+	lastBit = lastBit >> 3;   // 0000 0xxx ?? 다 1되면/./?
 
 	x = firstBit + lastBit;
 
@@ -196,7 +196,8 @@ void dec(char& x)
 
 std::string decrypt(std::string encryptedText)
 {
-	if (encryptedText == "") return "";
+	if (encryptedText == "")
+		return "";
 
 	std::string result;
 	std::string text;
@@ -228,9 +229,9 @@ std::string decrypt(std::string encryptedText)
 		}
 
 		char preFifth = 0x02 & preChar; // 0000 00x0
-		preFifth = preFifth << 4; // 00x0 0000
-		char curFirst = 0x20 & x; // 00x0 0000
-		curFirst = curFirst >> 4; // 0000 00x0
+		preFifth = preFifth << 4;		// 00x0 0000
+		char curFirst = 0x20 & x;		// 00x0 0000
+		curFirst = curFirst >> 4;		// 0000 00x0
 
 		preChar = preChar & 0xFD;
 		preChar = preChar | curFirst;

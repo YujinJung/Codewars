@@ -36,22 +36,22 @@
 using namespace std;
 
 // http://ohyecloudy.com/pnotes/archives/243/
-template<typename TO, typename FROM>
-TO NumberStringCast( const FROM& from )
+template <typename TO, typename FROM>
+TO NumberStringCast(const FROM &from)
 {
-    stringstream ss;
-    ss << from;
+  stringstream ss;
+  ss << from;
 
-    TO result;
-    ss >> result;
+  TO result;
+  ss >> result;
 
-    assert(!ss.fail() && !ss.bad() && ss.eof());
-    if( ss.fail() || ss.bad() || !ss.eof() )
-    {
-        // 예외 처리
-    }
+  assert(!ss.fail() && !ss.bad() && ss.eof());
+  if (ss.fail() || ss.bad() || !ss.eof())
+  {
+    // 예외 처리
+  }
 
-    return result;
+  return result;
 }
 
 class Decomp
@@ -64,10 +64,10 @@ public:
 void Decomp::makeIrreducibleFraction(long long &nr, long long &dr)
 {
   long long i = 1;
-  while(i < dr && i < nr)
+  while (i < dr && i < nr)
   {
     i++;
-    while(nr % i == 0 && dr % i == 0)
+    while (nr % i == 0 && dr % i == 0)
     {
       nr /= i;
       dr /= i;
@@ -79,34 +79,36 @@ string Decomp::decompose(const string &nrStr, const string &drStr)
 {
   long long nr = NumberStringCast<long long, string>(nrStr);
   long long dr = NumberStringCast<long long, string>(drStr);
-    
+
   makeIrreducibleFraction(nr, dr);
   string result = "[";
-  
-  if(nrStr == "1" || nr <= 0 || dr <= 0) return "[]";
-  if(nr > dr)
+
+  if (nrStr == "1" || nr <= 0 || dr <= 0)
+    return "[]";
+  if (nr > dr)
   {
     result = result + NumberStringCast<string, long long>(nr / dr);
     nr %= dr;
-    
-    if(nr == 0) return result + "]";
+
+    if (nr == 0)
+      return result + "]";
     result += ", ";
   }
-  
+
   long long dec = 0;
-  while(nr != 1)
+  while (nr != 1)
   {
     dec = dr / nr + 1;
     nr = nr * dec - dr;
     dr = dr * dec;
-    
-    if(nr != 1)
+
+    if (nr != 1)
       makeIrreducibleFraction(nr, dr);
-   
+
     result = result + "1/" + NumberStringCast<string, long long>(dec) + ", ";
   }
-  
-  result = result + NumberStringCast<string, long long>(nr) + "/" + NumberStringCast<string, long long>(dr) + "]"; 
-  
+
+  result = result + NumberStringCast<string, long long>(nr) + "/" + NumberStringCast<string, long long>(dr) + "]";
+
   return result;
 }

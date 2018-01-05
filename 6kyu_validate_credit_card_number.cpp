@@ -34,22 +34,24 @@
  *  8 does not equal 0, so 891 is not a valid credit card number.
  */
 
-class Kata {
-  public:
-  static bool validate(long long int n) {
+class Kata
+{
+public:
+  static bool validate(long long int n)
+  {
     bool flag = false;
     int index = 0;
     int sum = 0;
-    
-    while(n != 0)
+
+    while (n != 0)
     {
       index = n % 10;
       n /= 10;
-      if(flag)
+      if (flag)
       {
         flag = false;
         index *= 2;
-        if(index >= 10)
+        if (index >= 10)
         {
           sum += index % 10;
           index /= 10;
@@ -62,9 +64,10 @@ class Kata {
         sum += index;
       }
     }
-    
-    if((sum % 10) == 0) return true;
-    
+
+    if ((sum % 10) == 0)
+      return true;
+
     return false;
   }
 };

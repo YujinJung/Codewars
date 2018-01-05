@@ -14,33 +14,32 @@
 class LongestConsec
 {
 public:
-    
-    
-    static std::string longestConsec(std::vector<std::string> &strarr, int k)
+  static std::string longestConsec(std::vector<std::string> &strarr, int k)
+  {
+    int n = strarr.size();
+
+    if (n == 0 || k > n || k <= 0)
+      return "";
+
+    int max = 0;
+    int firstIndex = 0;
+    for (int i = 0; i < strarr.size() - k + 1; i++)
     {
-      int n = strarr.size();
-      
-      if(n == 0 || k > n || k <= 0) return "";
-      
-      int max = 0;
-      int firstIndex = 0;
-      for(int i = 0; i < strarr.size() - k + 1; i++)
+      int sum = 0;
+      for (int j = 0; j < k; j++)
+        sum += strarr.at(i + j).size();
+
+      if (sum > max)
       {
-        int sum = 0;
-        for(int j = 0; j < k; j++) sum += strarr.at(i+j).size();
-        
-        if(sum > max)
-        {
-          max = sum;
-          firstIndex = i;
-        }
+        max = sum;
+        firstIndex = i;
       }
-      
-      std::string s;
-      for(int j = firstIndex; j < firstIndex + k; j++) s += strarr.at(j);
-      
-      return s;
     }
-    
-    
+
+    std::string s;
+    for (int j = firstIndex; j < firstIndex + k; j++)
+      s += strarr.at(j);
+
+    return s;
+  }
 };

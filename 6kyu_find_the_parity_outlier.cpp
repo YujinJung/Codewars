@@ -17,28 +17,30 @@ int FindOutlier(std::vector<int> arr)
 {
   // vector length >= 3
   int result;
-  
+
   int judgeStateNumber = 0;
   // 하나 섞여 있으면
   int zeroState = std::abs(arr[0]) % 2;
   int firstState = std::abs(arr[1]) % 2;
   int secondState = std::abs(arr[2]) % 2;
-  if(zeroState == firstState)
+  if (zeroState == firstState)
     judgeStateNumber = zeroState;
-  else if(zeroState + firstState + secondState == 1)
+  else if (zeroState + firstState + secondState == 1)
   {
-    if(zeroState == 1) return arr[0];
+    if (zeroState == 1)
+      return arr[0];
     return arr[1];
   }
   else
   {
-    if(zeroState == 0) return arr[0];
+    if (zeroState == 0)
+      return arr[0];
     return arr[1];
-  }      
-    
-  for(int i = 2; i < arr.size(); i++)
-    if((std::abs(arr.at(i)) % 2) != judgeStateNumber)
+  }
+
+  for (int i = 2; i < arr.size(); i++)
+    if ((std::abs(arr.at(i)) % 2) != judgeStateNumber)
       return arr.at(i);
-  
+
   return 0;
 }

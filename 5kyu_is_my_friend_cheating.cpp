@@ -40,7 +40,7 @@ using namespace std;
 class RemovedNumbers
 {
 public:
-	static vector<vector<long long>> removNb(long long n);
+  static vector<vector<long long>> removNb(long long n);
 };
 
 // sum(1, n) - (n * (n + 1)) / 2
@@ -52,19 +52,20 @@ public:
 vector<vector<long long>> RemovedNumbers::removNb(long long n)
 {
   long long sumOfFull = (n * (n + 1)) / 2;
-  vector<vector<long long> > ret;
-  for(int i = 1; i < n; i++)
+  vector<vector<long long>> ret;
+  for (int i = 1; i < n; i++)
   {
     // y = (sum(1, n) - x) / ( x + 1)
     // y = ((n * (n + 1)) / 2(x + 1) - x / (x + 1))
-    long long y = (sumOfFull - i) / ( i + 1 );  
-    if((sumOfFull - i) % (i + 1) != 0 || y > n || y < 0) continue;
-    
+    long long y = (sumOfFull - i) / (i + 1);
+    if ((sumOfFull - i) % (i + 1) != 0 || y > n || y < 0)
+      continue;
+
     vector<long long> temp;
     temp.push_back(i);
     temp.push_back(y);
     ret.push_back(temp);
   }
-  
+
   return ret;
 }

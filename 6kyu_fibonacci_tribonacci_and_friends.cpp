@@ -15,39 +15,42 @@
 #include <vector>
 
 std::vector<int> memoXbonacci;
-int fibonacci(int n, const int& x);
-  
+int fibonacci(int n, const int &x);
+
 std::vector<int> xbonacci(std::vector<int> signature, int n)
 {
   int x = signature.size();
-  
+
   memoXbonacci = signature;
-  
+
   int sum = 0;
-  sum = fibonacci(n, x);  
-  
+  sum = fibonacci(n, x);
+
   int over = 0;
-  if(memoXbonacci.size() > n) over = memoXbonacci.size() - n;
-  
-  for(int i = 0; i < over; i++)
+  if (memoXbonacci.size() > n)
+    over = memoXbonacci.size() - n;
+
+  for (int i = 0; i < over; i++)
     memoXbonacci.pop_back();
-  
+
   return memoXbonacci;
 }
 
-int fibonacci(int n, const int& x)
+int fibonacci(int n, const int &x)
 {
-  if(n < memoXbonacci.size() ) return memoXbonacci.at(n);
-  
+  if (n < memoXbonacci.size())
+    return memoXbonacci.at(n);
+
   int sum = 0;
-  
-  for(int i = 1; i <= x; i++){
-    if(n - i < memoXbonacci.size()) 
+
+  for (int i = 1; i <= x; i++)
+  {
+    if (n - i < memoXbonacci.size())
     {
-      sum += memoXbonacci.at(n-i); 
+      sum += memoXbonacci.at(n - i);
       continue;
     }
-    sum += fibonacci(n-i, x);
+    sum += fibonacci(n - i, x);
   }
   memoXbonacci.push_back(sum);
   return sum;

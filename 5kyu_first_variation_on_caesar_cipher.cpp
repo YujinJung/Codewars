@@ -4,14 +4,16 @@
 
 class CaesarCipher
 {
-public:
+  public:
 	static int alphaCase(const char &a)
 	{
 		// 65 - 90 / 97 - 122
-		if (a >= 65 && a <= 90) return 1; // upper
-		else if (a >= 97 && a <= 122) return 2; // lower 
+		if (a >= 65 && a <= 90)
+			return 1; // upper
+		else if (a >= 97 && a <= 122)
+			return 2; // lower
 
-												// not alpha
+		// not alpha
 		return 0;
 	}
 
@@ -91,7 +93,8 @@ public:
 				}
 
 				shiftIndex++;
-				if (shiftIndex == 26) shiftIndex = 0;
+				if (shiftIndex == 26)
+					shiftIndex = 0;
 
 				result.push_back(x);
 			}
@@ -103,12 +106,11 @@ public:
 
 int main(void)
 {
-	std::string  u = "I should have known that you would have a perfect answer for me!!!";
-	std::vector<std::string> sol = { "J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!" };
+	std::string u = "I should have known that you would have a perfect answer for me!!!";
+	std::vector<std::string> sol = {"J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!"};
 
 	std::vector<std::string> res = CaesarCipher::movingShift(u, 1);
 	std::string strRes = CaesarCipher::demovingShift(sol, 1);
 
 	return 0;
 }
-

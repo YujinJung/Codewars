@@ -20,14 +20,13 @@
  * 
  */
 
-
 #include <string>
 #include <vector>
 
 class RevRot
 {
 public:
-    static std::string revRot(const std::string &strng, unsigned int sz);
+  static std::string revRot(const std::string &strng, unsigned int sz);
 };
 
 // if the number of odds is even, reverse number
@@ -35,29 +34,31 @@ public:
 std::string RevRot::revRot(const std::string &strng, unsigned int sz)
 {
   std::string result;
-  std::vector<std::string> v; 
-  
+  std::vector<std::string> v;
+
   // given exception
-  if(sz <= 0 || strng.size() == 0) return "";
-  if(sz > strng.size()) return "";
- 
-  for(int i = 0; i < (strng.size() / sz); i++)
-    v.push_back(strng.substr(i*sz, sz));
-  
-  for(int i = 0; i < v.size(); i++)
+  if (sz <= 0 || strng.size() == 0)
+    return "";
+  if (sz > strng.size())
+    return "";
+
+  for (int i = 0; i < (strng.size() / sz); i++)
+    v.push_back(strng.substr(i * sz, sz));
+
+  for (int i = 0; i < v.size(); i++)
   {
     std::string &t = v.at(i);
     int oddState = 0;
-    for(int j = 0; j < t.size(); j++)
+    for (int j = 0; j < t.size(); j++)
     {
       int k = t.at(j);
-      if(k % 2 != 0)
+      if (k % 2 != 0)
         oddState++;
     }
     // reverse
-    if(oddState % 2 == 0)
+    if (oddState % 2 == 0)
     {
-      while(!t.empty())
+      while (!t.empty())
       {
         result.push_back(t.back());
         t.pop_back();
@@ -67,7 +68,7 @@ std::string RevRot::revRot(const std::string &strng, unsigned int sz)
     else
     {
       // one left
-      for(int j = 1; j < t.size(); j++)
+      for (int j = 1; j < t.size(); j++)
         result.push_back(t.at(j));
       result.push_back(t.at(0));
     }

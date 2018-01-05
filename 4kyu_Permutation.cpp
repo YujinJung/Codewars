@@ -16,42 +16,43 @@
 
 using namespace std;
 
-void doPermutations(vector<string>& result, vector<pair<char, int> >& store, string& str)
+void doPermutations(vector<string> &result, vector<pair<char, int>> &store, string &str)
 {
-  if(store.empty())
+  if (store.empty())
   {
     result.push_back(str);
     return;
   }
-  
-  vector<pair<char, int> > temp = store;
-  
-  for(int i = 0; i < store.size(); i++)
+
+  vector<pair<char, int>> temp = store;
+
+  for (int i = 0; i < store.size(); i++)
   {
     str += store.at(i).first;
     store.at(i).second--;
-    if(store.at(i).second == 0)
+    if (store.at(i).second == 0)
       store.erase(store.begin() + i);
-      
+
     doPermutations(result, store, str);
     store = temp;
     str.pop_back();
   }
-  
+
   return;
 }
 
-void chkString(vector<pair<char, int> >& store, const string& s)
+void chkString(vector<pair<char, int>> &store, const string &s)
 {
   vector<int> chk(s.size(), 0);
-  for(int i = 0; i < s.size(); i++)
+  for (int i = 0; i < s.size(); i++)
   {
-    if(chk.at(i) == 1) continue;
+    if (chk.at(i) == 1)
+      continue;
     char sIn = s.at(i);
     int sNum = 1;
-    for(int j = i + 1; j < s.size(); j++)
+    for (int j = i + 1; j < s.size(); j++)
     {
-      if(sIn == s.at(j))
+      if (sIn == s.at(j))
       {
         chk.at(j) = 1;
         sNum++;
@@ -61,19 +62,19 @@ void chkString(vector<pair<char, int> >& store, const string& s)
   }
 }
 
-vector<string> permutations(string s) {
-  vector<pair<char, int> > store;
+vector<string> permutations(string s)
+{
+  vector<pair<char, int>> store;
   vector<string> result;
   string k;
-  
+
   chkString(store, s);
   doPermutations(result, store, k);
-  
+
   return result;
 }
 
-
-// Best Practice
+  // Best Practice
 
 #include <algorithm>
 #include <string>
@@ -81,12 +82,11 @@ vector<string> permutations(string s) {
 
 std::vector<std::string> permutations(std::string s)
 {
-    std::sort(s.begin(), s.end());
-    std::vector<std::string> result;
-    do
-    {
-        result.push_back(s);
-    }
-    while (std::next_permutation(s.begin(), s.end()));
-    return result;
+  std::sort(s.begin(), s.end());
+  std::vector<std::string> result;
+  do
+  {
+    result.push_back(s);
+  } while (std::next_permutation(s.begin(), s.end()));
+  return result;
 }
