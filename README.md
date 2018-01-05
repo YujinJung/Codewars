@@ -26,6 +26,7 @@
 - [5kyu john and ann sign up for codewars](https://www.codewars.com/kata/john-and-ann-sign-up-for-codewars/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_john_and_ann_sign_up_for_codewars.cpp)
 - [5kyu first variation on caesar cipher](https://www.codewars.com/kata/first-variation-on-caesar-cipher/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_first_variation_on_caesar_cipher.cpp)
 - [5kyu Simple Encryption #3 Turn The Bits Around](https://www.codewars.com/kata/simple-encryption-number-3-turn-the-bits-around/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_Simple_Encryption_#3_Turn_The_Bits_Around.cpp)
+- [5kyu Simple Encryption #2 Index Difference](https://www.codewars.com/kata/simple-encryption-number-3-turn-the-bits-around/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_simple_encryption_#2_Index-Difference.cpp)
 
 
 #### 6kyu
@@ -37,7 +38,7 @@
 - [vowel shifting](https://www.codewars.com/kata/577e277c9fb2a5511c00001d) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_vowel_shifting.cpp)
 - [steps in primes](https://www.codewars.com/kata/steps-in-primes/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_steps_in_primes.cpp)
 - [a rule of divisibility by 13](https://www.codewars.com/kata/a-rule-of-divisibility-by-13/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_a_rule_of_divisibility_by_13.cpp)
-- [6kyu simple encryption1 alternating split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_simple_encryption1_alternating_split.cpp)
+- [6kyu simple encryption1 alternating split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_simple_encryption_#1_alternating_split.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_parts_of_a_list.cpp)
