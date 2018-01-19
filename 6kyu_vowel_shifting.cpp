@@ -28,31 +28,32 @@
 #include <vector>
 std::string vowelShift(std::string text, int n)
 {
-  std::vector<char> vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };  
-    
+  std::vector<char> vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+
   std::vector<int> position;
   std::vector<char> str;
-  
-  for(int i = 0; i < text.size(); i++)
+
+  for (int i = 0; i < text.size(); i++)
   {
-    for(int j = 0; j < vowels.size(); j++)
+    for (int j = 0; j < vowels.size(); j++)
     {
-      if(text.at(i) == vowels.at(j))
+      if (text.at(i) == vowels.at(j))
       {
         position.push_back(i);
         str.push_back(text.at(i));
       }
     }
   }
-  
-  for(int i = 0; i < position.size(); i++)
+
+  for (int i = 0; i < position.size(); i++)
   {
     int textPosition = position.at(i);
     n %= position.size();
     int strPosition = i - n;
-    if(strPosition < 0) strPosition += position.size();
+    if (strPosition < 0)
+      strPosition += position.size();
     text.at(textPosition) = str.at(strPosition);
   }
-  
+
   return text;
 }

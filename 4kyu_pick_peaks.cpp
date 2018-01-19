@@ -26,40 +26,45 @@
 
 using namespace std;
 
-PeakData pick_peaks(vector<int> v) {
+PeakData pick_peaks(vector<int> v)
+{
   PeakData result;
   // Your code here
   int pos = 0, peaks = 0;
   bool asc = false;
-  
-  if(v.size() < 3) return result;
-  
-  if(v.at(1) > v.at(0)) asc = true;
-  
-  for(int i = 1; i < v.size(); i++)
+
+  if (v.size() < 3)
+    return result;
+
+  if (v.at(1) > v.at(0))
+    asc = true;
+
+  for (int i = 1; i < v.size(); i++)
   {
-    if(asc)
+    if (asc)
     {
-      if(v.at(i-1) < v.at(i))
+      if (v.at(i - 1) < v.at(i))
       {
-        pos = i; peaks = v.at(i);
+        pos = i;
+        peaks = v.at(i);
       }
-      else if(v.at(i-1) > v.at(i))
+      else if (v.at(i - 1) > v.at(i))
       {
         result.pos.push_back(pos);
         result.peaks.push_back(peaks);
         asc = false;
-      } 
+      }
     }
     else
     {
-      if(v.at(i-1) < v.at(i))
+      if (v.at(i - 1) < v.at(i))
       {
-        pos = i; peaks = v.at(i);
+        pos = i;
+        peaks = v.at(i);
         asc = true;
       }
     }
   }
-  
+
   return result;
 }

@@ -6,14 +6,15 @@
 
 using namespace std;
 
-bool path_finder(string maze) {
+bool path_finder(string maze)
+{
 
-	vector<vector<pair<int, int>> > v;
+	vector<vector<pair<int, int>>> v;
 	int n = 0;
 
 	for (int i = 0; i < maze.size(); i++)
 	{
-		vector<pair<int, int> > input;
+		vector<pair<int, int>> input;
 		int k = 0;
 		while (maze.at(i) != '\n')
 		{
@@ -23,7 +24,8 @@ bool path_finder(string maze) {
 				input.push_back(make_pair(1, 0));
 
 			i++;
-			if (i == maze.size()) break;
+			if (i == maze.size())
+				break;
 		}
 		v.push_back(input);
 	}
@@ -42,9 +44,11 @@ bool path_finder(string maze) {
 	while (!q.empty() && !(result))
 	{
 		k++;
-		i = q.front().first; j = q.front().second;
+		i = q.front().first;
+		j = q.front().second;
 		q.pop_front();
-		if (i == n && j == n) return true;
+		if (i == n && j == n)
+			return true;
 
 		if (i + 1 < n + 1)
 		{
