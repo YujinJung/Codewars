@@ -41,7 +41,8 @@
 - [a rule of divisibility by 13](https://www.codewars.com/kata/a-rule-of-divisibility-by-13/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_a_rule_of_divisibility_by_13.cpp)
 - [6kyu simple encryption1 alternating split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_simple_encryption_#1_alternating_split.cpp)
 - [6kyu Build a pile of Cubes](https://www.codewars.com/kata/build-a-pile-of-cubes/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_Build_a_pile_of_Cubes.cpp)
-- [6kyu_ball_upwards.cpp](https://www.codewars.com/kata/ball-upwards/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_ball_upwards.cpp)
+- [6kyu ball upwards](https://www.codewars.com/kata/ball-upwards/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_ball_upwards.cpp)
+- [6kyu sort the odd](https://www.codewars.com/kata/sort-the-odd/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_sort_the_odd.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_parts_of_a_list.cpp)
