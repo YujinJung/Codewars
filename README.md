@@ -43,6 +43,7 @@
 - [6kyu Build a pile of Cubes](https://www.codewars.com/kata/build-a-pile-of-cubes/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_Build_a_pile_of_Cubes.cpp)
 - [6kyu ball upwards](https://www.codewars.com/kata/ball-upwards/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_ball_upwards.cpp)
 - [6kyu sort the odd](https://www.codewars.com/kata/sort-the-odd/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/6kyu_sort_the_odd.cpp)
+- [6kyu_multiples_of_3_or_5.cpp](http://www.codewars.com/kata/multiples-of-3-or-5/cpp) / [Code](https://www.codewars.com/kata/6kyu_multiples_of_3_or_5.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/7kyu_parts_of_a_list.cpp)
