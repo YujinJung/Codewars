@@ -37,6 +37,10 @@
         "xlocnum": "cpp",
         "xmemory": "cpp",
         "xstddef": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "memory": "cpp",
+        "set": "cpp",
+        "tuple": "cpp",
+        "xtree": "cpp"
     }
 }
