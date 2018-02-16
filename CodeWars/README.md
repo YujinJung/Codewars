@@ -46,7 +46,8 @@
 - [6kyu multiples of 3 or 5](http://www.codewars.com/kata/multiples-of-3-or-5/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_multiples_of_3_or_5.cpp)
 - [6kyu treasures](https://www.codewars.com/kata/mr-safetys-treasures/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_treasures.cpp)
 - [6kyu which are in](https://www.codewars.com/kata/which-are-in/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_which_are_in.cpp)
-- [6kyu a disguised sequence 1](https://www.codewars.com/kata/a-disguised-sequence-i/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/a-disguised-sequence-i/cpp)
+- [6kyu a disguised sequence 1](https://www.codewars.com/kata/a-disguised-sequence-i/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_a_disguised_sequence_1.cpp)
+- [6kyu ka cypher](https://www.codewars.com/kata/ka-ka-ka-cypher-words-only-vol-1/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_kaCypher.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_parts_of_a_list.cpp)
