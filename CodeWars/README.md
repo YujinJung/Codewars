@@ -49,6 +49,7 @@
 - [6kyu a disguised sequence 1](https://www.codewars.com/kata/a-disguised-sequence-i/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_a_disguised_sequence_1.cpp)
 - [6kyu ka cypher](https://www.codewars.com/kata/ka-ka-ka-cypher-words-only-vol-1/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_kaCypher.cpp)
 - [6kyu fun with trees max sum](https://www.codewars.com/kata/fun-with-trees-max-sum/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_fun_with_trees_max_sum.cpp)
+- [6kyu Rectangle into Squares](https://www.codewars.com/kata/rectangle-into-squares/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_rectangle_into_squares.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_parts_of_a_list.cpp)
