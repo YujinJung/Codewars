@@ -29,6 +29,7 @@
 - [5kyu Simple Encryption #3 Turn The Bits Around](https://www.codewars.com/kata/simple-encryption-number-3-turn-the-bits-around/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/5kyu_Simple_Encryption_#3_Turn_The_Bits_Around.cpp)
 - [5kyu Simple Encryption #2 Index Difference](https://www.codewars.com/kata/simple-encryption-number-3-turn-the-bits-around/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/5kyu_simple_encryption_#2_Index-Difference.cpp)
 - [5kyu Pattern](https://www.codewars.com/kata/number-number-pattern-number-number-zoom/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_pattern.cpp)
+- [5kyu Diophantine Equation](https://www.codewars.com/kata/diophantine-equation/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/5kyu_diophantine_equation.cpp)
 
 #### 6kyu
 - [consecutive string](https://www.codewars.com/kata/56a5d994ac971f1ac500003e) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_consecutive_string.cpp)
