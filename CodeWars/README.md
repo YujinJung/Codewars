@@ -54,6 +54,7 @@
 - [6kyu Are they the same?](https://www.codewars.com/kata/are-they-the-same/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_are_they_the_same.cpp)
 - [6kyu Reducing By Steps](https://www.codewars.com/kata/reducing-by-steps/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_reducing_by_steps.cpp)
 - [6kyu Brick Pyramid](https://www.codewars.com/kata/brick-pyramid/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_brick_pyramid.cpp)
+- [6kyu The Fool's Day](https://www.codewars.com/kata/the-fools-day-1/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_the_fools_day.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_parts_of_a_list.cpp)
