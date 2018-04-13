@@ -60,3 +60,19 @@
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_parts_of_a_list.cpp)
 - [maximum length difference](https://www.codewars.com/kata/5663f5305102699bad000056/solutions/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_maximum_length_difference.cpp)
+
+<br/>
+
+---
+
+# Backjoon Online Judge
+
+## URL
+- [Backjoon Online Judge](https://www.acmicpc.net/)
+- [My Practice Record](https://www.acmicpc.net/user/ujinjung9)
+
+<br/>
+
+## Solution
+- [1004_어린왕자](https://www.acmicpc.net/problem/1004) / [Code](https://github.com/YujinJung/Codewars/blob/master/BOJ/1004.cpp)
+- [1005_ACM_Craft](https://www.acmicpc.net/problem/1005) / [Code](https://github.com/YujinJung/Codewars/blob/master/BOJ/1005.cpp)
