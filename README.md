@@ -56,6 +56,7 @@
 - [6kyu Brick Pyramid](https://www.codewars.com/kata/brick-pyramid/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_brick_pyramid.cpp)
 - [6kyu The Fool's Day](https://www.codewars.com/kata/the-fools-day-1/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_the_fools_day.cpp)
 - [6kyu Sqrt approximation](https://www.codewars.com/kata/sqrt-approximation/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_sqrt_approximation.cpp)
+- [6kyu English beggars](https://www.codewars.com/kata/english-beggars/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/6kyu_English_beggars.cpp)
 
 #### 7kyu
 - [parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/7kyu_parts_of_a_list.cpp)
