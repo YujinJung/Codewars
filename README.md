@@ -7,6 +7,9 @@
 <br/>
 
 ## Kata
+#### 3kyu
+- [Last digit of a huge number](https://www.codewars.com/kata/last-digit-of-a-huge-number/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/3kyu_Last_digit_of_a_huge_number.cpp)
+
 #### 4kyu
 - [ranking poker hand](https://www.codewars.com/kata/5739174624fc28e188000465) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/4kyu_ranking_poker_hands.cpp)
 - [pick peaks](https://www.codewars.com/kata/pick-peaks/cpp) / [Code](https://github.com/YujinJung/Codewars/blob/master/CodeWars/4kyu_pick_peaks.cpp)
